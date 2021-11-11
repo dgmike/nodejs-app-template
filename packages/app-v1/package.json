@@ -1,0 +1,20 @@
+{
+  "name": "app-v1",
+  "description": "Application with routes on V1",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "app"
+  ],
+  "author": "Michael Granados <contato@dgmike.com.br>",
+  "license": "ISC",
+  "dependencies": {
+    "hal": "^1.2.0",
+    "koa-routes": "^7.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
