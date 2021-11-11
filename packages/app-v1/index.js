@@ -1,5 +1,5 @@
 import Router from 'koa-routes';
-import { Resource } from 'hal';
+import * as handlers from './handlers/index.js'
 
 export const appV1 = new Router();
 
@@ -13,7 +13,4 @@ appV1.use((ctx, next) => {
   next();
 })
 
-appV1.get('root', '/', (ctx) => {
-  const resource = new Resource({}, appV1.url('root'));
-  ctx.hal(resource);
-});
+appV1.get('root', '/', handlers.root);
