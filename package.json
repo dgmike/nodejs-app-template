@@ -3,7 +3,7 @@
   "description": "A simple base template for nodejs",
   "private": true,
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "author": "Michael Granados <contato@dgmike.com.br>",
   "license": "ISC",
