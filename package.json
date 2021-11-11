@@ -13,7 +13,8 @@
   ],
   "scripts": {
     "start": "node .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npx standard-version"
   },
   "workspaces": [
     "packages/server",
