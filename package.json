@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-app-template",
+  "description": "A simple base template for nodejs",
+  "private": true,
+  "type": "module",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Michael Granados <contato@dgmike.com.br>",
+  "license": "ISC",
+  "keywords": [
+    "template",
+    "api"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
