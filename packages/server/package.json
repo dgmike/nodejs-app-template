@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "description": "Server aplication, use it as base, plug on it all necessary server ports",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa",
+    "server"
+  ],
+  "author": "Michael Granados <contato@dgmike.com.br>",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.4"
+  }
+}
